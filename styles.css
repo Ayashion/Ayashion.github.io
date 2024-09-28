@@ -32,6 +32,22 @@ header {
     margin-right: 20px;
 }
 
+.blue-button {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.blue-button:hover {
+    background-color: darkblue;
+}
+
 .profile-image img {
     width: 150px;
     height: 150px;
@@ -98,20 +114,4 @@ ul {
     margin: 5px;
     border-radius: 5px;
     font-size: 0.9em;
-}
-
-.blue-button {
-    background-color: blue;
-    color: white;
-    font-weight: bold;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    display: inline-block;
-}
-
-.blue-button:hover {
-    background-color: darkblue;
 }
